@@ -1,7 +1,7 @@
-# make.fun news-image-20261122
+# 22 November 2026 — world news
 
-Program that writes one image summarizing the world news of 22 November 2026 to `/output/entry.png`.
+Program for the make.fun bounty [news-image-20261122](https://make.fun/bounty/news-image-20261122).
 
-Deterministic, no network. The image covers major events of the day: COP31 climate talks overtime, Russian cargo ship drone strike in the Baltic, strikes in Ukraine, Middle East escalations, Indonesia factory fire, and related developments.
+`main.py` copies `entry.jpg` to `/output/entry.png`. The file is a JPEG (1024×1024, under 1 MiB). The judge reads those bytes.
 
-Built for the make.fun bounty.
+The poster names the day and six stories in one top-to-bottom list: COP31 overtime, a ship hit in the Baltic, a strike in Ukraine, Gulf tension, a factory fire in Indonesia, and clashes in Bangladesh.
